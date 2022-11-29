@@ -13,7 +13,7 @@ class Food implements Serializable
     int quantity;   
     float price;
     
-    Food(int itemno,int quantity)
+    Food(int itemno,int quantity) 
     {
         this.itemno=itemno;
         this.quantity=quantity;
